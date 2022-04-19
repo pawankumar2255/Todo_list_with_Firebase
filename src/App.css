@@ -1,0 +1,92 @@
+.App {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: purple;
+}
+
+
+.card{
+  background-color: rgb(54, 53, 58);
+  height: 100vh;
+  width: 70vw;
+  border-radius: 5rem;
+  justify-content: center;
+}
+
+
+.cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap:1.25rem;
+  
+
+}
+
+
+.heads{
+  position: sticky;
+  color: white
+}
+
+.todoCards{
+  overflow-y: auto;
+}
+
+
+.inputTodo{
+  font-weight: bolder;
+  font-size: 1.5rem;
+  -webkit-text-stroke-width: 0.3px;
+  padding-left: 1rem;
+  border-radius: 0.6rem;
+  margin-right: 1.5rem;
+  height: 2.5rem;
+  width: 30rem;
+}
+
+
+.heads>button{
+  margin-right: -3rem;
+}
+
+.cardItem{
+  height: 4rem;
+  width: 40rem;
+  border-radius: 1rem;
+  box-shadow: 0.2rem 0.5rem 0.3rem orange;
+  background-color: #64ed3624;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+
+}
+
+button{
+  cursor: pointer;
+  margin-left: 10px;
+  height: 2.3rem;
+  width: 80px;
+  border-radius: 10px;
+  border: none;
+  font-weight: bolder;
+  font-size: 1rem;
+  -webkit-text-stroke-width: 0.5px;
+}
+button:hover{
+  background-color:rgba(4, 50, 59, 0.688);
+
+  
+}
+
+
+.cardItem input {
+  border: none;
+  font-size: 30px;
+  border-radius: 0.7rem;
+  height: 2.4rem;
+  
+}
